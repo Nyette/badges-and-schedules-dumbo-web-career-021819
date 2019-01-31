@@ -16,7 +16,7 @@ end
 
 def assign_rooms(array_names)
   array_room_assignments = []
-  index = 0
+  array_names
   room_assignment = "Hello, #{}! You'll be assigned to room #{}!"
   array_room_assignments << room_assignment
   end
