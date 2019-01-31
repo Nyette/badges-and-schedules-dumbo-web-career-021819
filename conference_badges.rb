@@ -22,3 +22,5 @@ def assign_rooms(array_names)
   end
   return array_room_assignments
 end
+
+
