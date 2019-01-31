@@ -17,15 +17,8 @@ end
 def assign_rooms(array_names)
   array_room_assignments = []
   room_number = 1
-  index_of_names = 0
-    while room_number < 8
-      room_assignment = "Hello, " + array_names[index_of_names] + "! You'll be assigned to room #{room_number}!"
-      array_room_assignments << room_assignment
-      room_number += 1
-      index_of_names += 1
-    end
-  end
+  # room_assignment = "Hello, " + array_names[index_of_names] + "! You'll be assigned to room #{room_number}!"
+  # array_room_assignments << room_assignment
+  # room_number += 1
   return array_room_assignments
 end
-
-
